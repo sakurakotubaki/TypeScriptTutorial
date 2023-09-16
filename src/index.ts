@@ -1,3 +1,4 @@
-let array:Array<string|number> = [1, 'Taro', 2, 'Satou', 3, 'Hanako']
-console.log(array)
-let hoge: string = "ffff";
+let a: string = "Hello World!"
+let b: number = 42
+let c: boolean = true;
+let d: any = "Hello World!"
