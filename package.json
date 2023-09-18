@@ -1,29 +1,25 @@
 {
-  "name": "01",
+  "name": "typescripttutorial",
   "version": "1.0.0",
-  "description": "",
+  "description": "こちらを参照",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sakurakotubaki/TypeScriptTutorial.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.41.0",
-    "eslint": "^8.26.0",
-    "eslint-config-standard-with-typescript": "^23.0.0",
-    "eslint-plugin-import": "^2.26.0",
-    "eslint-plugin-n": "^15.3.0",
-    "eslint-plugin-promise": "^6.1.1",
-    "typescript": "^4.9.5"
+  "bugs": {
+    "url": "https://github.com/sakurakotubaki/TypeScriptTutorial/issues"
   },
-  "dependencies": {
-    "@types/express": "^4.17.17",
-    "@types/node": "^20.6.2",
-    "@types/pdfkit": "^0.12.11",
-    "express": "^4.18.2",
-    "pdfkit": "^0.13.0",
-    "ts-node": "^10.9.1"
+  "homepage": "https://github.com/sakurakotubaki/TypeScriptTutorial#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.7.0",
+    "@typescript-eslint/parser": "^6.7.0",
+    "eslint": "^8.49.0"
   }
 }
