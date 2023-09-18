@@ -1,0 +1,1 @@
+let hoge: string = "hoeg";
