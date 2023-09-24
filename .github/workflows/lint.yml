@@ -1,0 +1,25 @@
+name: Lint
+
+on:
+  push:
+    branches:
+      - main  # またはメインブランチの名前
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: 16.17.1  # 利用したいNode.jsバージョンを指定
+
+      - name: Install Dependencies
+        run: npm install
+
+      - name: Run ESlint
+        run: npm run lint  # ESlintを実行するnpmスクリプト名に合わせて設定
