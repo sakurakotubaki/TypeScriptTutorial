@@ -23,3 +23,6 @@ jobs:
 
       - name: Run ESlint
         run: npm run lint  # ESlintを実行するnpmスクリプト名に合わせて設定
+
+      - name: Run Jest Tests
+        run: npm test  # Jestを実行するnpmスクリプト名に合わせて設定
